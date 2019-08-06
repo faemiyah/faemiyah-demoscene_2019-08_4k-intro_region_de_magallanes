@@ -1,0 +1,22 @@
+Región de Magallanes
+
+Synth & music:               Juippi
+Worm shape & extra entropy:  Warma
+Everything else:             Trilkk
+
+Tools: dnload, ghostsyn
+
+This is the first Linux-ia32 (as opposed to FreeBSD-ia32) 4k we've made in 15
+years. Change in platform courtesy of PoroCYon, who figured out the Linux
+stack alignment bug.
+
+Name comes from the last shore on Earth, in Región de Magallanes y de la
+Antártica Chilena. Faro San Isidro, the last building on earth was supposed to
+be in the intro, but there was no entropy left for it.
+
+
+Greets to:  Blobtrox, Ctrl-Alt-Test, Desire, Epoch, Fit, G-INcorporated,
+            Hedelmae, Ivory Labs, Lonely Coders, Luminaire, Paraguay, Peisik,
+            Royal Elite Ninjas, TDA, The Old Dude, Tekotuotanto, Traction
+
+Extra greets to:  PoroCYon
