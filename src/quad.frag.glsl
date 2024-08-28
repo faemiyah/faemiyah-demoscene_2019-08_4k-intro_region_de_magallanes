@@ -5,7 +5,7 @@ const vec3 I_TERRAIN_COLOR = vec3(0.36, 0.33, 0.3);
 const vec3 I_WATER_COLOR = vec3(0.33, 0.43, 0.48);
 const vec3 I_MOSA_COLOR = vec3(0.9, 0.4, 0.44);
 const vec3 I_SUN_COLOR = vec3(1.3, 1.1, 0.9);
-const float END_OF_THE_WORLD = smoothstep(7600, 9000, ticks);
+const float END_OF_THE_WORLD = smoothstep(7600, 8800, ticks);
 const float I_PI = 3.14159;
 
 float cutoff_normalize(float op, float lvl)
@@ -127,7 +127,7 @@ float sdf(int idx, vec3 pos)
         float val = pos.y * 0.11 - pos.z * 0.01 - 0.5;
         if(abs(pos.y) < 22)
         {
-            val += brownian2(pos * 0.00022) * (0.8 + END_OF_THE_WORLD * 6) + brownian3(pos * 0.015 - END_OF_THE_WORLD * vec3(0.0, 0.8, 0.0)) * 0.033 * mix(1.0, pos.y, END_OF_THE_WORLD);
+            val += brownian2(pos * 0.00022) * (0.8 + END_OF_THE_WORLD * 5) + brownian3(pos * 0.015 - END_OF_THE_WORLD * vec3(0.0, 2.2, 0.0)) * 0.033 * mix(1.0, pos.y, END_OF_THE_WORLD);
         }
         if(pos.z > 0)
         {
